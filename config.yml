@@ -1,0 +1,12 @@
+# TalkBot Configuration
+chat:
+  reply-chance: 0.72
+  cooldown-seconds: 8
+  bot-chat-chance: 0.08
+  bot-chat-cooldown-seconds: 35
+  max-memory-messages: 12
+  max-reply-words: 24
+  ignore-commands: true
+combat:
+  react-chance: 0.65
+  cooldown-seconds: 5

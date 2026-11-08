@@ -1,0 +1,17 @@
+name: TalkBot
+version: 1.0.0
+main: com.jerinex.talkbot.TalkBotPlugin
+api-version: '1.21'
+softdepend: [PvpBot]
+commands:
+  talkbot:
+    description: Manage TalkBot personalities
+    usage: /talkbot <bot> [style <style>|off|on|list]
+    permission: talkbot.admin
+  survival:
+    description: Toggles survival bot grinding mode for a player
+    usage: /survival <player>
+    permission: talkbot.admin
+permissions:
+  talkbot.admin:
+    default: op
